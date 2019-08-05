@@ -1,5 +1,5 @@
 + 首先确保女神电脑windows 64Bit 
-+ [点击这里下载rar](https://github.com/ARainyNight/ValentinesDay/blob/master/JavaFX.rar)||[或者下载文件夹](https://github.com/ARainyNight/ValentinesDay/tree/master/JavaFX)
++ [点击这里下载rar](https://github.com/ARainyNight/ValentinesDay/raw/master/JavaFX.rar)
 + 点击里面的vbs就可以运行了
 
 -------------
