@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="800.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="601.0" fitWidth="337.0" layoutX="416.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="32.0" layoutY="96.0" prefHeight="160.0" prefWidth="412.0" style="-fx-background-color: #ffdee6; -fx-border-color: #72d8fc; -fx-border-width: 6px;">
+         <children>
+            <Label layoutX="74.0" layoutY="25.0" text="小姐姐，做我女朋友吧？" textFill="#666666">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="agreeBtn" layoutX="68.0" layoutY="89.0" mnemonicParsing="false" onAction="#agree" prefHeight="35.0" prefWidth="80.0" text="好呀" />
+            <Button fx:id="disagreeBtn" layoutX="206.0" layoutY="89.0" mnemonicParsing="false" onMouseEntered="#disagree" prefHeight="35.0" prefWidth="80.0" text="不好" />
+         </children>
+      </Pane>
+      <Label fx:id="msg" layoutX="42.0" layoutY="304.0" opacity="0.0" text="小姐姐，下班一起走呗？:）" textFill="#666666">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
